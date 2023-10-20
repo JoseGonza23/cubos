@@ -1,0 +1,43 @@
+<ion-content class="kilo">
+  <ion-card class="pego">
+    <ion-row>
+      <ion-col size="6">
+        <ion-img src="./assets/icon/logito.ico" class="logo"></ion-img>
+      </ion-col>
+      <ion-col size="6" class="yuyo">
+         
+             <br>
+             <br>
+             <br>
+            <h3 class="HIU">IUMACO</h3>
+            <div id="formulario">
+             
+              <form (ngSubmit)="login()">
+                <ion-item>
+                  <ion-label position="floating">password</ion-label>
+                  <ion-input type="text" [(ngModel)]="username" name="username" required></ion-input>
+                </ion-item>
+        
+                <ion-item>
+                  <ion-label position="floating">username</ion-label>
+                  <ion-input type="password" [(ngModel)]="password" name="password" required></ion-input>
+                </ion-item>
+          
+        
+                <button type="submit" class=" vovo"> INICIAR  </button>
+              </form>
+            </div>
+        
+      
+        
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  
+  <ion-footer >
+    <ion-toolbar color="custom-color">
+      <a href="https://sena.territorio.la/index.php?login=true#"><img src="./assets/Territorium.png" class="tu"></a>
+      <a href="https://oferta.senasofiaplus.edu.co/sofia-oferta/"><img src="./assets/sena.png" class="te"></a>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>
